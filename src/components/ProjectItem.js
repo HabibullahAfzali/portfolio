@@ -8,7 +8,7 @@ const ProjectItem = ({ project }) => {
         <p className="card-text">{project.description}</p>
         <p className="card-text">
           <small className="text-muted">
-            Technologies: {project.technologies}
+            Technologies: {project.technologies.join(", ")}
           </small>
         </p>
         <a
