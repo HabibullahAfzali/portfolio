@@ -5,32 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eec6402-dfb5-42bb-b610-798419a38077" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/dto/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/dto/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/dto/CommentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/dto/ProjectDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/entity/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/security/CustomUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/security/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/security/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +53,14 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
