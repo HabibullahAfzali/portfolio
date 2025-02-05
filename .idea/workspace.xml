@@ -1,15 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="88ab13cb-b5b7-4cee-b8b3-7ebe91d57e40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/portfolion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/PortfolioApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/dto/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/dto/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/dto/ProjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/security/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/security/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/security/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/java/com/portfolio/portfolio/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/backend/src/test/java/com/portfolio/portfolio/PortfolioApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/portfolio/portfolio/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AdminPanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CommentForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CommentList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/LoginForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/PrivateRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/context/AuthContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/About.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/auth.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +91,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2sZd52l9aSex6VhsCGBLLTsZYH5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,13 +109,13 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
